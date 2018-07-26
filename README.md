@@ -23,3 +23,8 @@ rsyslog   rsyslogd -n   Up
 $ netstat -nutlp|grep 514
 udp        0      0 192.168.1.204:514       0.0.0.0:*                           1188/rsyslogd
 ```
+注意：修改配置文件的监听IP地址:（address=xxxx）
+```
+$ grep address rsyslog.conf 
+input(type="imudp" address="192.168.1.204" port="514" ruleset="rs1")
+```
