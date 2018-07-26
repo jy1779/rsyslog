@@ -3,7 +3,7 @@
 部署方式：docker  
 docker版本：Docker version 18.03.1-ce, build 9ee9f40   
 docker-compose版本： docker-compose version 1.14.0, build c7bdf9e    
-docker及docker-compose安装：[点我]（https://github.com/jy1779/docker）    
+docker及docker-compose安装：[点我](https://github.com/jy1779/docker)    
 rsyslog 安装步骤:   
 1.  获取rsyslog.git       
 ```
