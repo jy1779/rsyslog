@@ -11,6 +11,7 @@ $ git clone https://github.com/jy1779/rsyslog.git
 ```
 2.  启动rsyslog       
 ```
+$ cd ./rsyslog
 $ docker-compose up -d rsyslog
 ```
 3.  查看容器启动状态，并且检查端口是否启动.  
