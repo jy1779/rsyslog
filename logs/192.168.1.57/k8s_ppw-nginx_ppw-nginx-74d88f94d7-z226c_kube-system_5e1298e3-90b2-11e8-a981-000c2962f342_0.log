@@ -1,0 +1,15 @@
+ 2018-07-26 17:25:33,432 WARN received SIGTERM indicating exit request
+ 2018-07-26 17:25:33,432 INFO waiting for nginx, crond to die
+ 2018-07-26 17:25:33,433 INFO stopped: crond (terminated by SIGTERM)
+ 2018-07-26 17:25:33,434 INFO stopped: nginx (exit status 0)
+ /usr/lib/python2.7/site-packages/supervisor/options.py:296: UserWarning: Supervisord is running as root and it is searching for its configuration file in default locations (including its current working directory); you probably want to specify a "-c" argument specifying an absolute path to a configuration file for improved security.
+   'Supervisord is running as root and it is searching '
+ 2018-07-26 17:25:33,778 CRIT Supervisor running as root (no user in config file)
+ 2018-07-26 17:25:33,778 WARN Included extra file "/etc/supervisor.d/supervisord.ini" during parsing
+ 2018-07-26 17:25:33,789 INFO RPC interface 'supervisor' initialized
+ 2018-07-26 17:25:33,790 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+ 2018-07-26 17:25:33,790 INFO supervisord started with pid 1
+ 2018-07-26 17:25:34,793 INFO spawned: 'nginx' with pid 7
+ 2018-07-26 17:25:34,808 INFO spawned: 'crond' with pid 8
+ 2018-07-26 17:25:35,840 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+ 2018-07-26 17:25:35,840 INFO success: crond entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

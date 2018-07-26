@@ -1,0 +1,16 @@
+version: "2"
+services:
+  rsyslog:
+    image: registry.cn-hangzhou.aliyuncs.com/jonny/rsyslog:8.26.0
+    restart: always
+    container_name: rsyslog
+    hostname: rsyslog
+    network_mode: host
+    volumes:
+      - "./rsyslog.conf:/etc/rsyslog.conf"
+      - "./logrotate.conf:/etc/logrotate.conf"
+      - "./logs/:/logs/"
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "1"
