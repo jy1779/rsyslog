@@ -19,4 +19,6 @@ $ docker-compose ps
 Name       Command     State   Ports  
 -------------------------------------  
 rsyslog   rsyslogd -n   Up
+$ netstat -nutlp|grep 514
+udp        0      0 192.168.1.204:514       0.0.0.0:*                           1188/rsyslogd
 ```
